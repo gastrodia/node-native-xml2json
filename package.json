@@ -1,0 +1,25 @@
+{
+  "name": "node-native-xml2json",
+  "version": "1.0.0",
+  "description": "调用原生模块实现xml解析",
+  "main": "index.js",
+  "dependencies": {
+    "nan": "^1.8.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "install": "node-gyp rebuild"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gastrodia/node-native-xml2json.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "gypfile": true,
+  "bugs": {
+    "url": "https://github.com/gastrodia/node-native-xml2json/issues"
+  },
+  "homepage": "https://github.com/gastrodia/node-native-xml2json#readme"
+}
